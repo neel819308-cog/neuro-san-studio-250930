@@ -10,8 +10,12 @@
 {
     include "registries/aaosa.hocon"
     
-    "llm_config": {
-        "model_name": "gpt-4o",
+     "llm_config": {
+        "model_name": "azure-gpt-4o",
+        "openai_api_key": "cef2188708004aae9f4a3cbfdd5361d6"
+        "openai_api_version": "2025-01-01-preview",
+        "azure_endpoint": "https://aniljohn-gpt4.openai.azure.com",
+        "deployment_name": "Neel-gpt-4o",
     },
     "instructions_prefix": """
 You are in charge of a portion of the help desk of an airline company.

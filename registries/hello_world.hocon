@@ -14,8 +14,12 @@
 # https://github.com/cognizant-ai-lab/neuro-san/blob/main/docs/agent_hocon_reference.md
 
 {
-    "llm_config": {
-        "model_name": "gpt-4o",
+     "llm_config": {
+        "model_name": "azure-gpt-4o",
+        "openai_api_key": "cef2188708004aae9f4a3cbfdd5361d6"
+        "openai_api_version": "2025-01-01-preview",
+        "azure_endpoint": "https://aniljohn-gpt4.openai.azure.com",
+        "deployment_name": "Neel-gpt-4o",
     },
     "tools": [
         # This first agent definition is regarded as the "Front Man", which

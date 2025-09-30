@@ -10,8 +10,12 @@
 #
 # END COPYRIGHT
 {
-    "llm_config": {
-        "model_name": "gpt-4o",
+     "llm_config": {
+        "model_name": "azure-gpt-4o",
+        "openai_api_key": "cef2188708004aae9f4a3cbfdd5361d6"
+        "openai_api_version": "2025-01-01-preview",
+        "azure_endpoint": "https://aniljohn-gpt4.openai.azure.com",
+        "deployment_name": "Neel-gpt-4o",
     },
     "max_iterations": 40000,
     "max_execution_seconds": 6000,
