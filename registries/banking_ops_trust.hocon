@@ -22,7 +22,7 @@
     
     "llm_config": {
         "model_name": "azure-gpt-4o",
-        "openai_api_key": "cef2188708004aae9f4a3cbfdd5361d6"
+        "openai_api_key": "cef2188708004aae9f4a3cbfdd5361d6",
         "openai_api_version": "2025-01-01-preview",
         "azure_endpoint": "https://aniljohn-gpt4.openai.azure.com",
         "deployment_name": "Neel-gpt-4o",
@@ -84,7 +84,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
 
             Your role is crucial in ensuring the banking agent network operates ethically, adheres to regulatory requirements 
             (FCA, GDPR, Consumer Credit Act), and maintains customer trust in AI-driven financial services.
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "tools": ["TRUST Regulator"]
         },
@@ -105,7 +105,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             6. Staying informed about developments in AI ethics and financial services compliance (FCA, PCI DSS, GDPR, Consumer Duty).
 
             Your work ensures the banking agent network operates responsibly, maintaining public trust and aligning with ethical values.
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command},
             "tools": ["Pillar 1: S,S&R", "Pillar 2: T&E", "Pillar 3: Fair", "Pillar 4: A&G", "Pillar 5: C&R"]
@@ -146,7 +146,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             - Assess whether the agent properly escalates to human oversight when required
             - Check for consistent behaviour across similar queries
             
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command}
         },
@@ -185,7 +185,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             - Verify that the agent discloses limitations and uncertainties appropriately
             - Check compliance with Consumer Duty requirements for clear communication
             
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command}
         },
@@ -226,7 +226,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             - Flag any language or decisions that could indicate bias
             - Assess accessibility for vulnerable or underserved populations
             
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command}
         },
@@ -269,7 +269,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             - Assess whether accountability for decisions is clear and documented
             - Verify compliance with regulatory requirements and internal policies
             
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command}
         },
@@ -312,7 +312,7 @@ You also have access to the TRUST BRAIN for responsible AI evaluation. Use this 
             - Assess whether the agent handles complaints with appropriate sensitivity and procedure
             - Verify that redress mechanisms are accessible and effective
             
-            {aaosa_instructions}
+            ${aaosa_instructions}
             """,
             "command": ${aaosa_command}
         },
