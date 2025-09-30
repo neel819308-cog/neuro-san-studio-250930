@@ -27,4 +27,5 @@
     # Applications
     # Set the following agent network to true before running apps/log_analyzer/log_analyzer.py
     "log_analysis_agents.hocon": false,
+    "log_analysis_agents_NPS.hocon": true,
 }
