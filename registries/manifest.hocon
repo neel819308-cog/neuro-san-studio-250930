@@ -15,6 +15,7 @@
     # Use cases
     "airline_policy.hocon": true,
     "banking_ops.hocon": true,
+    "banking_ops_trust.hocon": true,
 
     # Experimental and research - Agent Network Tools
     "agent_network_architect.hocon": false,
